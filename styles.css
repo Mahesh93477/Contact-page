@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.container{
+    margin-left: 33%;
+    height: 1620px;
+    width: 600px;
+}
+h1{
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin-left: 20px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+.one{
+    margin-left: 50px;
+}
+.page{
+    height: 600px;
+    width: 600px;
+    margin-top: 60px;
+    padding: 20px;
+    padding-left: 50px;
+    background-color: #CDD5E0;
+    border-radius: 5%;
+}
+label{
+    font-size: 15px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+input{
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    border: whitesmoke;
+    position: relative;
+    top: 30px;
+    left: -70px;
+}
+#Csize{
+    margin-top: 80px;
+}
+#lpages{
+    margin-left: 53px;
+}
+.label{
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    border: whitesmoke;
+    position: relative;
+    top: 30px;
+    left: -70px;
+}   
+#messagebox{
+    margin-top: 60px;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-bottom: 180px;
+    width: 500px;
+}
+button{
+    margin-top: 100px;
+    width: 87%;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 15px;
+    border: whitesmoke;
+    color: blue;
+    font-weight: 700;
+    font-size: medium;
+}
+@media only screen and (max-width: 600px) {
+    label {
+        display: block;
+    }
+    input{
+        
+    }
+  }
+    
+}
