@@ -1,96 +1,129 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
-.logo{
-    margin-top: 20px;
-    margin-left: 70px;
+h1, h3{
+    text-wrap: balance;
+    color: whitesmoke;
+    line-height: 1.5rem;
+    padding: 3px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
 }
 .container{
-    margin-left: 33%;
-    height: 1620px;
-    width: 600px;
-}
-h1{
-    font-size: 55px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: whitesmoke;
-    margin-left: 20px;
-    font-weight: 1000;
-    margin-bottom: 10px;
-}
-h3{
-    font-size: 30px;
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 500;
-}
-.one{
-    margin-left: 50px;
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+    width: 300px;
+    max-width: 600px;
+    min-height: 600px;
+    line-height: 1.5rem;
+    font-size: 1.8ch;
+    text-align: center;
+
 }
 .page{
-    height: 600px;
-    width: 600px;
-    margin-top: 60px;
-    padding: 20px;
-    padding-left: 50px;
-    background-color: #CDD5E0;
-    border-radius: 5%;
+    min-height: 400px;
+    width: 267px;
+    padding: 1rem;
+    margin-top:30px;
+
+    background-color: #8493a9;
+    border-radius: 10px;
+    opacity: .7;
+    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
 }
 label{
-    font-size: 15px;
-    font-weight: 300;
     color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif     ;
+    display: block;
+    text-align: initial;
+    font-weight: 500;
 }
-input{
-    height: 40px;
-    width: 200px;
-    border-radius: 15px;
+input, #Csize, #lpages{
+    width: 100%;
+    height: 3rem;
+    border-radius: 10px;
     border: whitesmoke;
-    position: relative;
-    top: 30px;
-    left: -70px;
-}
-#Csize{
-    margin-top: 80px;
-}
-#lpages{
-    margin-left: 53px;
-}
-.label{
-    height: 40px;
-    width: 200px;
-    border-radius: 15px;
-    border: whitesmoke;
-    position: relative;
-    top: 30px;
-    left: -70px;
-}   
-#messagebox{
-    margin-top: 60px;
-    margin-left: 30px;
-    padding-left: 10px;
-    padding-bottom: 180px;
-    width: 500px;
 }
 button{
-    margin-top: 100px;
-    width: 87%;
-    margin-left: 10px;
-    height: 40px;
-    border-radius: 15px;
+    margin-top: 1rem;
+    width: 100%;
+    height: 2rem;
+    border-radius: 10px;
     border: whitesmoke;
-    color: blue;
-    font-weight: 700;
-    font-size: medium;
 }
-@media only screen and (max-width: 600px) {
-    label {
-        display: block;
+#msg{
+    padding-bottom: 10rem;
+}
+@media only screen and (min-width: 1200px) {
+    .container {
+      width: 100%;
     }
-    input{
+    label{
+        display: inline;
+        align-items: start;
+    }
+    .page{
+        height: 600px;
+        width: 87%;
+        margin-top: 60px;
+        padding: 20px;
+        padding-left: 50px;
+        background-color: #CDD5E0;
+        border-radius: 5%;
+    }
+    label{
+        font-size: 15px;
+        font-weight: 300;
+        color: whitesmoke;
+        
         
     }
+    input{
+        height: 40px;
+        width: 200px;
+        border-radius: 15px;
+        border: whitesmoke;
+        position: relative;
+        top: 30px;
+        left: -40px;
+    }
+    #name{
+        margin-left: -50px;
+    }
+    #Csize{
+        position: relative;
+        margin-top: 80px;
+        margin-left: -135px;
+        padding-left: 5px;
+        height: 40px;
+        width: 200px;
+    }
+    #lpages{
+        margin-left: 53px;
+        margin-top: 55px;
+        
+        height: 40px;
+        width: 200px;
+    }
+    #msg{
+        margin-top: 60px;
+        margin-left: 30px;
+        padding-left: 10px;
+        padding-bottom: 180px;
+        width: 500px;
+    }
+    button{
+        margin-top: 100px;
+        width: 80%;
+        margin-right: 30px;
+        padding-left: -10px;
+        height: 40px;
+        border-radius: 15px;
+        border: whitesmoke;
+        color: blue;
+        font-weight: 700;
+        font-size: medium;
+    }
   }
-    
-}
